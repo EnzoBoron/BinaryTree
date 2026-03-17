@@ -1,4 +1,4 @@
-SRC = 	./src/tree.cpp
+SRC = 	./src/tree.cpp \
 CC = g++
 CFLAG = Wall
 EXEC_NAME = binaryTree
