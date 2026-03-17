@@ -14,6 +14,7 @@
         Node* initialisationLeft(Node* loop, int v);
         Node* initialisationRight(Node* loop, int v);
         void freeTree(Node* loop);
+        Node* searchParent(int key);
     public:
         Tree();
         ~Tree();
@@ -22,8 +23,8 @@
         void postOrder(Node*);
         void addNode(int);
         Node* getNode(void);
-        void remove(int);
-        bool search(int);
+        Node* remove(Node* root, int key);
+        Node* search(int);
         int getSize(void);
     };
     
