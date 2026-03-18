@@ -149,16 +149,19 @@ Node* Tree::remove(Node* head, int key) {
     }
     else {
         if (!head->left && !head->right) {
+            this->size--;
             delete head;
             return nullptr;
         }
         if (!head->left) {
             Node* tmp = head->right;
+            this->size--;
             delete head;
             return tmp;
         }
         if (!head->right) {
             Node* tmp = head->left;
+            this->size--;
             delete head;
             return tmp;
         }

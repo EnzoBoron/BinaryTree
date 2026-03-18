@@ -1,7 +1,7 @@
 SRC = 	./src/tree.cpp \
 CC = g++
 CFLAG = Wall
-EXEC_NAME = binaryTree
+EXEC_NAME = bst
 
 all: $(EXEC_NAME)
 

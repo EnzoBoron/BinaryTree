@@ -138,7 +138,7 @@ make
 Run:
 
 ```
-./binaryTree
+./bst
 ```
 
 ---
